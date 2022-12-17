@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SampleTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="SampleTest1(failed)">
+    <classes>
+      <class name="com.magento.testcases.CreateAccountTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="initialise"/>
+          <include name="tearDown"/>
+          <include name="validateLogoutTest"/>
+          <include name="ValidateCreateAccountTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.magento.testcases.CreateAccountTest -->
+    </classes>
+  </test> <!-- SampleTest1(failed) -->
+  <test thread-count="5" parallel="methods" name="SampleTest2(failed)">
+    <classes>
+      <class name="com.magento.testcases.LoginTest">
+        <methods>
+          <include name="initialise"/>
+          <include name="tearDown"/>
+          <include name="validateLogoutTest"/>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="homePagePresentTest"/>
+        </methods>
+      </class> <!-- com.magento.testcases.LoginTest -->
+    </classes>
+  </test> <!-- SampleTest2(failed) -->
+</suite> <!-- Failed suite [SampleTestSuite] -->

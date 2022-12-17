@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-17T19:45:46 IST" name="Default suite" finished-at="2022-12-17T19:46:00 IST" duration-ms="13279">
+    <groups>
+    </groups>
+    <test started-at="2022-12-17T19:45:46 IST" name="Default test" finished-at="2022-12-17T19:46:00 IST" duration-ms="13279">
+      <class name="com.magento.testcases.LoginTest">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:com.magento.testcases.LoginTest@223aa2f7]" started-at="2022-12-17T19:45:46 IST" name="initialise" finished-at="2022-12-17T19:45:52 IST" duration-ms="5824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.magento.testcases.LoginTest@223aa2f7]" started-at="2022-12-17T19:45:52 IST" name="setUp" finished-at="2022-12-17T19:45:52 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePagePresentTest()[pri:1, instance:com.magento.testcases.LoginTest@223aa2f7]" started-at="2022-12-17T19:45:52 IST" name="homePagePresentTest" finished-at="2022-12-17T19:45:53 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePagePresentTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.magento.testcases.LoginTest@223aa2f7]" started-at="2022-12-17T19:45:53 IST" name="close" finished-at="2022-12-17T19:45:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.magento.testcases.LoginTest@223aa2f7]" started-at="2022-12-17T19:45:53 IST" name="setUp" finished-at="2022-12-17T19:45:53 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginTest()[pri:2, instance:com.magento.testcases.LoginTest@223aa2f7]" started-at="2022-12-17T19:45:53 IST" name="validateLoginTest" finished-at="2022-12-17T19:45:57 IST" duration-ms="4059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.magento.testcases.LoginTest@223aa2f7]" started-at="2022-12-17T19:45:57 IST" name="close" finished-at="2022-12-17T19:45:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.magento.testcases.LoginTest@223aa2f7]" started-at="2022-12-17T19:45:57 IST" name="setUp" finished-at="2022-12-17T19:45:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogoutTest()[pri:3, instance:com.magento.testcases.LoginTest@223aa2f7]" started-at="2022-12-17T19:45:57 IST" name="validateLogoutTest" finished-at="2022-12-17T19:45:59 IST" duration-ms="2679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoutTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.magento.testcases.LoginTest@223aa2f7]" started-at="2022-12-17T19:45:59 IST" name="close" finished-at="2022-12-17T19:45:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.testcases.LoginTest@223aa2f7]" started-at="2022-12-17T19:45:59 IST" name="tearDown" finished-at="2022-12-17T19:46:00 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.magento.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
