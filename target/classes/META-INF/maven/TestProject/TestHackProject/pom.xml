@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>TestProject</groupId>
-  <artifactId>TestHackProject</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>MagentoApp</name>
-  
-  
-  <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>TestProject</groupId>
+	<artifactId>TestHackProject</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>MagentoApp</name>
+
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 
 
 	<build>
@@ -33,7 +33,7 @@
 
 						<suiteXmlFiles>
 							<suiteXmlFile>testng_Sanity.xml</suiteXmlFile>
-							
+
 						</suiteXmlFiles>
 
 					</configuration>
@@ -45,9 +45,8 @@
 	</build>
 
 
+	<dependencies>
 
-    <dependencies>
-    
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -76,11 +75,16 @@
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
-		    <groupId>org.seleniumhq.selenium</groupId>
-		    <artifactId>selenium-java</artifactId>
-		    <version>4.6.0</version>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.6.0</version>
 		</dependency>
-  
-    </dependencies>
-  
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>4.0.9</version>
+		</dependency>
+
+	</dependencies>
+
 </project>
